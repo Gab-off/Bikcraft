@@ -139,10 +139,35 @@
   font-size: 18px;
   text-transform: uppercase;
   color: #fec63e;
-  line-height:25px;
+  line-height: 25px;
   font-weight: bold;
 }
 
 .orcamento_dados span {
   display: block;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 30px;
+}
+
+.dados_email {
+  margin-bottom: 40px;
+}
+
+.orcamento_dados ul {
+  padding-right: 60px;
+}
+
+.orcamento_dados ul li {
+  font-family: Georgia, "Times New Roman", serif;
+font-size: 14px;
+padding: 10px 15px;
+}
+
+.orcamento_dados ul li:nth-child(odd) {
+  background-color: #1d1d1d
+}
+
+.orcamento_dados p {
+  margin: 8px 0;
 }
